@@ -1,0 +1,426 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+	outline: none;
+}
+
+body {
+	margin: 0px;
+	border-top: 6px solid #7e7e7e;
+	background: url(../images/bg.png);
+
+}
+
+#wrapper{
+	margin: 0 auto;
+	max-width: 960px;
+	display: block;
+	height: auto;
+}
+.logo{
+	margin: 27px 0 20px 0;
+	float: left;
+	
+}
+form{
+	margin: 27px 0 20px 0;
+	float: right;
+	width: 200px;	
+	font-size: 0px;
+	height: 32px;
+	
+}
+
+button{
+	cursor: pointer;	
+	width: 42px;
+	height: 32px;
+	font: 14px Oswald, sans-serif;
+	color: #fefefe;
+	border: none;
+	background-color: #29c5e6;
+}
+
+
+input{
+	border: 1px solid #dbdbdb;
+	height: 32px;
+	width: 158px;
+	font: 12px Tahoma, sans-serif;;
+	background: #f3f3f3;
+	padding: 0 10px 0 10px ;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+
+nav a{
+	text-decoration: none;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+
+}
+
+nav ul {
+	border: 1px solid #e7e7e7;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	width: 960px;
+	box-sizing: border-box;
+	
+}
+
+
+
+.top-list{
+	text-align: center;
+	font: 14px Oswald, sans-serif;
+	background-color: #f3f3f3;
+	display: inline-block;
+	margin: 0px;
+	width: 100%;
+	
+}
+
+.top-list:hover {
+
+	background: #29c5e6;
+	color: #fff;
+	
+}
+
+.top-list:hover a{
+	color: white;
+}
+
+.top-menu a {
+	text-transform: uppercase;
+	color: #b2b2b2;
+}
+
+.about{
+	display: block;
+	margin: 26px 0 26px 0;
+}
+.about p{
+	display: inline-block;
+	font-size: 41px; 
+	font-family: 'Oswald', sans-serif;
+	padding: 0 15px;
+	margin: 0;
+	color: #7e7e7e;
+	
+}
+.menu{
+	display: inline-block;
+	vertical-align: top;
+
+}
+
+.menu a {
+	text-transform: uppercase;
+	text-decoration: none;
+	 
+}
+
+.menu ul{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	height: 235px;
+	width: 250px;
+
+}
+
+.menu li{
+
+	width: auto;
+	list-style-type: none;
+	border: 1px solid #e7e7e7;
+	font: 14px 'Oswald', sans-serif;
+	color: #8f8f8f;
+	background-color: #f3f3f3;
+
+	
+}
+
+.side-list{
+	position: relative;
+	display: inline-block;
+	color: #8f8f8f;
+	padding-left: 31px;
+	height: 40px;
+	width: 88%;
+	line-height: 40px;
+	margin: 0;
+}
+
+.side-list:before{
+	background: #7e7e7e;;
+	content: '';
+	display: inline-block;
+	height: 8px;
+	width: 8px;
+	position:absolute;
+	left: 12px;
+	top: 16px; 
+	margin: 0;
+}
+
+.side-list:hover{
+	color: #29c5e6;;
+	margin: 0;
+}
+
+.side-list:hover:before{
+	background: #29c5e6;
+	
+}
+
+.menu_block{
+	margin-top: 30px;
+}
+
+.menu_block h3{
+	padding: 13px 0px 13px 11px;
+	width: 239px;
+	background-color: #29c5e6;
+	font: 14px 'Oswald', sans-serif;;
+	color:#ffffff;
+	margin-bottom: 0px;
+}
+.menu_block img{
+	padding: 10px;
+	background-color: #f3f3f3;
+	border: 1px solid #e7e7e7;
+}
+
+
+.content{
+	height: auto;
+	margin-left: 26px;
+	width: 680px;
+	display: inline-block;
+	
+}
+.banner{
+	background-color: #29c5e6;
+	font-family: 'Oswald', sans-serif;
+}
+
+.banner h3{
+	text-transform: uppercase;
+	margin: 0;
+	font-size: 33px;
+	color: #ffffff;
+	font-weight: 300;
+	padding: 19px 30px 0px 22px;
+	line-height: 34px;
+}
+
+.banner p {
+	font: 20px 'Oswald', sans-serif;
+	font-weight: 300;
+	color: #1d8ea6;
+	text-align: right;
+	margin: 9px 36px 14px 0px;
+}
+.title_text{
+	height: 170px;
+	margin-bottom: 15px;
+}
+.main_text {
+	display: inline-block;
+	width: 680px;
+	color: #8f8f8f;
+	font: 12px Tahoma, sans-serif;;
+	font-weight: 400;
+	line-height: 18px;
+
+}
+/*тут можно добавить отступы в параграфе*/
+.main_text p{
+	margin-top: 0px;
+	margin-bottom: 15px;
+}
+
+.main_block{
+	margin-top: 15px;
+}
+
+.image2	{
+	float:right;
+}
+
+.team_text{
+	font: 30px 'Oswald', sans-serif;;
+	font-weight: 300;
+	line-height: 40px;
+	color: #fff;
+	background-color: #29c5e6;
+	width: 671px;
+	padding-left: 9px;
+}
+.team_text p{
+	margin-top: 25px;
+	margin-bottom: 20px;	
+}
+.foto_block{
+
+	display: flex;
+	justify-content: space-between;
+}
+.fotos{
+	
+	display: inline-block;
+	margin-bottom: 17px;
+}
+
+.foto_block	p {
+	font: 16px 'Oswald', sans-serif;;
+	font-weight: 300;
+	line-height: 32px; 
+	color: #8f8f8f;
+	margin: 0px;
+
+}
+
+.foto_block span{
+	font: 14px 'Oswald', sans-serif;;
+	font-weight: 300;
+	line-height: 20px;
+	color: #29c5e6;
+}
+
+.footer{
+	margin-top: 10px;
+	background-color: #7e7e7e;
+	padding-bottom: 14px;
+	padding-top: 14px;
+	display: block;
+	
+	width: 100%;
+	
+
+}
+.footer_content{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.tw_feed{
+	display:inline-block;
+	width: 301px;
+	margin-right: 19px;
+}
+.footer h2{
+	color: #fff;
+	font: 14px 'Oswald', sans-serif;;
+	font-weight: 400;
+	border-bottom: 1px solid #919191;
+	margin-top: 0;
+	margin-bottom: 5px; 
+}
+
+.footer span{
+	color:  #b4aeae;
+	font: 11px Tahoma;;
+	font-weight: 400;
+	line-height: 14px;
+	text-decoration: underline;
+}
+
+.footer p{
+	color:  #dbdbdb;
+	font: 11px Tahoma;;
+	font-weight: 400;
+	line-height: 14px;
+	margin-top: 7px;
+	margin-bottom: 0;
+}
+
+.site_map{
+	display:inline-block;
+	vertical-align: top;
+	width: 151px;
+	margin-right: 18px;
+}
+.site_map a {
+	text-decoration: none;
+	font: 12px Tahoma, sans-serif;;
+	color: #dbdbdb;
+	font-weight: 400;
+	line-height: 18px;
+	
+}
+.site_map li{
+	list-style-type: none;
+}
+.site_map ul{
+	display: inline-block;
+	padding: 0;
+	width: 73px;	
+}
+.social{
+	display: inline-block;
+	vertical-align: top;
+	width: 131px;
+}
+.top_images{
+	margin-top: 11px;
+	display: flex;
+	justify-content: space-between;
+}
+.bottom_images{
+	margin-top: 7px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer_logo{
+	margin-top: 30px;
+	display: inline-block;
+	float: right;
+}

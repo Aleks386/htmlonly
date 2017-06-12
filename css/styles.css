@@ -124,9 +124,14 @@ nav ul {
 }
 
 .top-menu a {
+	
 	text-transform: uppercase;
 	color: #b2b2b2;
+<<<<<<< HEAD
 	display: block;
+=======
+
+>>>>>>> f986846de7004a8cc318047ac407363bb26c0c0c
 }
 
 .about{
@@ -303,9 +308,6 @@ nav ul {
 	background-color: #7e7e7e;
 	padding-bottom: 14px;
 	padding-top: 14px;
-	width: 100%;
-	
-
 }
 .footer_content{
 	width: 960px;

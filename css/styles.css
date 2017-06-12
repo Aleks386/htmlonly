@@ -55,8 +55,6 @@ body {
 #wrapper{
 	margin: 0 auto;
 	max-width: 960px;
-	display: block;
-	height: auto;
 }
 .logo{
 	margin: 27px 0 20px 0;
@@ -65,11 +63,8 @@ body {
 }
 form{
 	margin: 27px 0 20px 0;
-	float: right;
-	width: 200px;	
-	font-size: 0px;
-	height: 32px;
-	
+	float: right;	
+	font-size: 0px;	
 }
 
 button{
@@ -96,21 +91,15 @@ input{
 
 nav a{
 	text-decoration: none;
-	display: block;
-	height: 40px;
 	line-height: 40px;
 
 }
 
 nav ul {
 	border: 1px solid #e7e7e7;
-	margin: 0;
-	padding: 0;
 	display: flex;
-	justify-content: space-between;
 	width: 960px;
 	box-sizing: border-box;
-	
 }
 
 
@@ -119,8 +108,6 @@ nav ul {
 	text-align: center;
 	font: 14px Oswald, sans-serif;
 	background-color: #f3f3f3;
-	display: inline-block;
-	margin: 0px;
 	width: 100%;
 	
 }
@@ -139,10 +126,10 @@ nav ul {
 .top-menu a {
 	text-transform: uppercase;
 	color: #b2b2b2;
+	display: block;
 }
 
 .about{
-	display: block;
 	margin: 26px 0 26px 0;
 }
 .about p{
@@ -150,7 +137,6 @@ nav ul {
 	font-size: 41px; 
 	font-family: 'Oswald', sans-serif;
 	padding: 0 15px;
-	margin: 0;
 	color: #7e7e7e;
 	
 }
@@ -166,14 +152,7 @@ nav ul {
 	 
 }
 
-.menu ul{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	height: 235px;
-	width: 250px;
 
-}
 
 .menu li{
 
@@ -192,22 +171,18 @@ nav ul {
 	display: inline-block;
 	color: #8f8f8f;
 	padding-left: 31px;
-	height: 40px;
-	width: 88%;
 	line-height: 40px;
-	margin: 0;
+	width: 88%;
 }
 
 .side-list:before{
 	background: #7e7e7e;;
 	content: '';
-	display: inline-block;
 	height: 8px;
 	width: 8px;
 	position:absolute;
 	left: 12px;
 	top: 16px; 
-	margin: 0;
 }
 
 .side-list:hover{
@@ -221,16 +196,14 @@ nav ul {
 }
 
 .menu_block{
-	margin-top: 30px;
+	margin-top: 15px;
 }
 
 .menu_block h3{
-	padding: 13px 0px 13px 11px;
-	width: 239px;
+	padding: 13px 11px 13px 11px;
 	background-color: #29c5e6;
 	font: 14px 'Oswald', sans-serif;;
 	color:#ffffff;
-	margin-bottom: 0px;
 }
 .menu_block img{
 	padding: 10px;
@@ -240,7 +213,6 @@ nav ul {
 
 
 .content{
-	height: auto;
 	margin-left: 26px;
 	width: 680px;
 	display: inline-block;
@@ -253,7 +225,6 @@ nav ul {
 
 .banner h3{
 	text-transform: uppercase;
-	margin: 0;
 	font-size: 33px;
 	color: #ffffff;
 	font-weight: 300;
@@ -273,11 +244,8 @@ nav ul {
 	margin-bottom: 15px;
 }
 .main_text {
-	display: inline-block;
-	width: 680px;
 	color: #8f8f8f;
 	font: 12px Tahoma, sans-serif;;
-	font-weight: 400;
 	line-height: 18px;
 
 }
@@ -288,12 +256,11 @@ nav ul {
 }
 
 .main_block{
-	margin-top: 15px;
+	margin-top: 25px;
+	display: flex;
+	justify-content: space-between;
 }
 
-.image2	{
-	float:right;
-}
 
 .team_text{
 	font: 30px 'Oswald', sans-serif;;
@@ -301,7 +268,6 @@ nav ul {
 	line-height: 40px;
 	color: #fff;
 	background-color: #29c5e6;
-	width: 671px;
 	padding-left: 9px;
 }
 .team_text h2{
@@ -314,8 +280,6 @@ nav ul {
 	justify-content: space-between;
 }
 .fotos{
-	
-	display: inline-block;
 	margin-bottom: 17px;
 }
 
@@ -324,7 +288,6 @@ nav ul {
 	font-weight: 300;
 	line-height: 32px; 
 	color: #8f8f8f;
-	margin: 0px;
 
 }
 
@@ -340,8 +303,6 @@ nav ul {
 	background-color: #7e7e7e;
 	padding-bottom: 14px;
 	padding-top: 14px;
-	display: block;
-	
 	width: 100%;
 	
 
@@ -359,9 +320,7 @@ nav ul {
 .footer h2{
 	color: #fff;
 	font: 14px 'Oswald', sans-serif;;
-	font-weight: 400;
 	border-bottom: 1px solid #919191;
-	margin-top: 0;
 	margin-bottom: 5px; 
 }
 
@@ -392,7 +351,6 @@ nav ul {
 	text-decoration: none;
 	font: 12px Tahoma, sans-serif;;
 	color: #dbdbdb;
-	font-weight: 400;
 	line-height: 18px;
 	
 }
@@ -401,7 +359,6 @@ nav ul {
 }
 .site_map ul{
 	display: inline-block;
-	padding: 0;
 	width: 73px;	
 }
 .social{

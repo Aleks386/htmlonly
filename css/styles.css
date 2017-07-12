@@ -49,7 +49,6 @@ body {
 	margin: 0px;
 	border-top: 6px solid #7e7e7e;
 	background: url(../images/bg.png);
-
 }
 
 main{
@@ -96,12 +95,11 @@ main{
 .top-menu{
 	border: 1px solid #e7e7e7;
 	display: flex;
-	width: 960px;
 	box-sizing: border-box;
 }
 .top-list{
 	text-align: center;
-	font: 14px Oswald, sans-serif;
+	font: bold 14px Oswald, sans-serif;
 	background-color: #f3f3f3;
 	width: 50%;
 	
@@ -124,7 +122,7 @@ main{
 
 .about{
 	background: url(../images/about1.png);
-	margin: 26px 0 26px 0;
+	margin-top: 26px;
 }
 
 .about p{
@@ -133,18 +131,21 @@ main{
 	font-size: 44px; 
 	font-family: 'Oswald', sans-serif;
 	color: #7e7e7e;
-	padding: 0 7px 0 7px;
+	padding: 0 7px;
 	margin-left: 20px;
+}
+header{
+	margin-bottom: 26px;
 }
 .side-menu{
 	display: inline-block;
 	vertical-align: top;
-	width: 250px;
-}
+/*	width: 250px;
+*/}
 .side-menu a {
 	text-transform: uppercase;
 	text-decoration: none; 
-	font: 14px 'Oswald', sans-serif;
+	font: bold 14px Oswald, sans-serif;
 	color: #8f8f8f;
 	line-height: 40px;
 	display: block;
@@ -197,23 +198,21 @@ main{
 .banner{
 	background-color: #29c5e6;
 	font-family: 'Oswald', sans-serif;
-	height: 170px;
 	margin-bottom: 15px;
 }
 .banner h3{
+	font-style: italic;
 	text-transform: uppercase;
 	font-size: 33px;
 	color: #ffffff;
-	font-weight: 300;
 	padding: 19px 30px 0px 22px;
 	line-height: 34px;
 }
 .banner p {
-	font: 20px 'Oswald', sans-serif;
-	font-weight: 300;
+	font-size: 20px;
 	color: #1d8ea6;
 	text-align: right;
-	margin: 9px 36px 14px 0px;
+	padding: 9px 36px 14px 0px;
 }
 
 .main_text {
@@ -221,28 +220,30 @@ main{
 	font: 12px Tahoma, sans-serif;;
 	line-height: 18px;
 }
-/*тут можно добавить отступы в параграфе*/
-.main_text p{
+.main_text p {
 	margin-top: 0px;
 	margin-bottom: 15px;
 }
-.main_block{
+.main_text img {
+	max-width: 100%;
+}
+
+/*.main_block{
 	margin-top: 25px;
 	display: flex;
 	justify-content: space-between;
-}
+}*/
 
-.team_text{
-	font: 30px 'Oswald', sans-serif;;
-	font-weight: 300;
-	line-height: 40px;
+.second_banner{	
 	color: #fff;
 	background-color: #29c5e6;
-	padding-left: 9px;
-}
-.team_text h2{
 	margin-top: 25px;
 	margin-bottom: 20px;	
+}
+.second_banner h2{
+	font:  30px 'Oswald', sans-serif;;
+	line-height: 40px;
+	padding-left: 9px;
 }
 .images_block{
 	display: flex;
@@ -256,14 +257,13 @@ main{
 	margin-bottom: 17px;
 }
 .foto_block	p {
-	font: 16px 'Oswald', sans-serif;;
-	font-weight: 300;
-	line-height: 32px; 
+	font: 14px 'Oswald', sans-serif;;
+	font-weight: bold;
+	line-height: 30px; 
 	color: #8f8f8f;
 }
 .foto_block span{
 	font: 14px 'Oswald', sans-serif;;
-	font-weight: 300;
 	line-height: 20px;
 	color: #29c5e6;
 }

@@ -46,15 +46,19 @@ table {
 }
 
 body {
-	margin: 0px;
 	border-top: 6px solid #7e7e7e;
 	background: url(../images/bg.png);
 }
+
+
+
 
 main{
 	margin: 0 auto;
 	max-width: 960px;
 }
+
+
 .logo{
 	margin: 27px 0 20px 0;
 	float: left;
@@ -105,11 +109,12 @@ main{
 	
 }
 .top-list:hover {
-
+	transition: 0.6s;
 	background: #29c5e6;
 	color: #fff;
 }
 .top-list:hover a{
+	transition: 0.6s;
 	color: white;
 }
 .top-menu a {
@@ -140,9 +145,24 @@ header{
 .side-menu{
 	display: inline-block;
 	vertical-align: top;
-/*	width: 250px;
-*/}
-.side-menu a {
+}
+.side_menu_list{
+	width: 250px;
+}
+
+
+
+.side_list{
+	width: 100%;
+	position: relative;
+	padding-left: 31px;
+	border: 1px solid #e7e7e7;
+	background-color: #f3f3f3;
+	box-sizing: border-box;
+}
+
+
+.side_menu_text {
 	text-transform: uppercase;
 	text-decoration: none; 
 	font: bold 14px Oswald, sans-serif;
@@ -150,16 +170,7 @@ header{
 	line-height: 40px;
 	display: block;
 }
-
-.side-list{
-	position: relative;
-	padding-left: 31px;
-	width: 250px;
-	border: 1px solid #e7e7e7;
-	background-color: #f3f3f3;
-	box-sizing: border-box;
-}
-.side-list:before{
+.side_list:before{
 	background: #7e7e7e;;
 	content: '';
 	height: 8px;
@@ -167,14 +178,13 @@ header{
 	position:absolute;
 	left: 12px;
 	top: 16px; 
+} 
+.side_list:hover .side_menu_text {
+	color: #29c5e6;
 }
-.side-list a:hover{
-	color: #29c5e6;;
-}
-.side-list:hover:before{
+.side_list:hover:before{
 	background: #29c5e6;
 }
-
 .menu_block{
 	margin-top: 15px;
 }
@@ -221,18 +231,11 @@ header{
 	line-height: 18px;
 }
 .main_text p {
-	margin-top: 0px;
 	margin-bottom: 15px;
 }
 .main_text img {
 	max-width: 100%;
 }
-
-/*.main_block{
-	margin-top: 25px;
-	display: flex;
-	justify-content: space-between;
-}*/
 
 .second_banner{	
 	color: #fff;
@@ -247,14 +250,17 @@ header{
 }
 .images_block{
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
 .foto_block{
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
 .fotos{
 	margin-bottom: 17px;
+
 }
 .foto_block	p {
 	font: 14px 'Oswald', sans-serif;;
@@ -272,6 +278,7 @@ footer{
 	background-color: #7e7e7e;
 	padding-bottom: 14px;
 	padding-top: 14px;
+	height: 120px;
 }
 .footer_content{
 	width: 960px;
